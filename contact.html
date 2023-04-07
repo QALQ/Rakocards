@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        function submit() {
+            alert('Submit success!');
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Rako Cards">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1><a href="index.html">RakoCards</a></h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="feature.html">Feature</a></li>
+                    <li><a href="donwnload.html">Download</a></li>
+                    <li><a class="current" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <section id="contact-form" class="bg-light">
+        <div class="container">
+            <h1 class="l-heading">
+                Contact <span class="text-primary">Us</span></h1>
+            <p> We need <span class="text-primary">your feedback </span>to get improvment</p>
+            <form action="process.php">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" name="name" id="name">
+
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="text" name="email" id="email">
+
+                </div>
+
+
+
+                <div class="form-group">
+                    <label for="message">Your Feedback</label>
+                    <textarea input type="text" name="message" id="message">
+                    </textarea>
+                </div>
+            </form>
+            <button onclick="submit()"> Submit</button>
+        </div>
+
+    </section>
+    <div class="clr"></div>
+    <footer id="main-footer">
+        <p>Rako Cards</p>
+        <p>Designed by QingaoLi, Not for Bussiness</p>
+        <p>1219553221@qq.com</p>
+
+    </footer>
+
+</body>
+
+</html>

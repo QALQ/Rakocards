@@ -1,0 +1,392 @@
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* main styling */
+html,body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.7em;
+}
+
+
+
+a{
+    color:#333;
+    text-decoration: none;
+}
+
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+/* utility classes */
+.container{
+    margin: 0 auto;
+    max-width: 1100px;
+    overflow: hidden;
+    padding: 0 20px;
+
+}
+.text-primary{
+    color: #47C5B0;
+}
+
+.bg-dark{
+    background: #404040;
+    color: white;
+}
+
+.bg-light{
+    background: white;
+    color: #404040;
+}
+
+/* navbar */
+#navbar{
+    background-color: #47C5B0;
+    color: white;
+    overflow: auto;
+   
+  
+}
+
+#navbar a{
+    color: white;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current{
+   background: white;
+   color:#47C5B0 ;
+}
+
+/*showcase*/
+
+#showcase{
+    background: url(img/book.png) no-repeat center center/ cover;
+    height: 500px;
+}
+#showcase .showcase-content{
+ color: white;
+text-align: center;
+padding-top: 230px;
+}
+
+#showcase .showcase-content h1{
+    font-size: 55px;
+    line-height: 0.8em;
+}
+
+#showcase .showcase-content p{
+    font-size: 15px;
+    padding-bottom:20px;
+}
+/*showcase2*/
+
+#showcase2{
+    background: url(img/book2.png) no-repeat center center/ cover;
+    height: 500px;
+}
+#showcase2 .showcase-content{
+ color: white;
+text-align: center;
+padding-top: 230px;
+}
+
+#showcase2 .showcase-content h1{
+    font-size: 55px;
+    line-height: 0.8em;
+}
+
+#showcase2 .showcase-content p{
+    font-size: 15px;
+    padding-bottom:20px;
+}
+
+
+/*btn*/
+.btn{
+    display: inline-block;
+    font-size: 13px;
+    color: white;
+    background: #47C5B0;
+    padding: 4px 15px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background: #333;
+
+}
+
+button{
+    display: inline-block;
+    font-size: 13px;
+    color: white;
+    background: #47C5B0;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-bottom: 200px;
+}
+
+button:hover{
+    background: #333;
+
+}
+
+/*home-info*/
+#home-info{
+    height: 400px;
+}
+
+#home-info .info-img{
+    background:url('img/phones.png') no-repeat center center/cover;
+    float:left;
+    width:50%;
+    height:100%;
+}
+
+#home-info .info-content{
+    float:right;
+    width:50%;
+    text-align:center;
+    height:100%;
+    padding:50px 30px;
+    overflow:hidden;
+    font-size: 18px;
+}
+
+
+#home-info .info-content p{
+   padding-bottom: 30px;
+}
+
+#home-info .btn:hover{
+background-color: aliceblue;
+color: #47C5B0;
+}
+
+/*feature1*/
+#feature-one{
+    height: 400px;
+}
+
+#feature-one .one-img{
+    background:url('img/pomodoro.png') no-repeat center center/cover;
+    float:left;
+    width:50%;
+    height:100%;
+}
+
+#feature-one .three-img{
+    background:url('img/cards.png') no-repeat center center/cover;
+    float:left;
+    width:50%;
+    height:100%;
+}
+
+#feature-one .one-content{
+    float:right;
+    width:50%;
+    text-align:center;
+    height:100%;
+    padding:150px 60px;
+    overflow:hidden;
+    font-size: 15px;
+}
+
+
+#feature-one .one-content p{
+   padding-bottom: 30px;
+}
+
+/*feature2*/
+#feature-two{
+    height: 400px;
+}
+
+#feature-two .two-img{
+    background:url('img/discussion.png') no-repeat center center/cover;
+    float:right;
+    width:50%;
+    height:100%;
+}
+
+#feature-two .two-content{
+    float:left;
+    width:50%;
+    text-align:center;
+    height:100%;
+    padding:150px 60px;
+    overflow:hidden;
+    font-size: 15px;
+}
+
+
+#feature-two .two-content p{
+   padding-bottom: 30px;
+}
+
+/*footer*/
+#main-footer{
+    text-align: center;
+    background: #47C5B0;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+  
+}
+
+.clr{
+clear: both;
+}
+
+/*download-page*/
+#download-page{
+    height: 900px;
+}
+
+#download-page img{
+    height: 200px;
+}
+
+#download-page .download-pc{
+    float:left;
+    width:50%;
+    text-align:center;
+    height:100%;
+    padding:200px 60px;
+    overflow:hidden;
+    font-size: 18px;
+}
+
+#download-page .download-mobile{
+    float:right;
+    width:50%;
+    text-align:center;
+    height:100%;
+    padding:200px 60px;
+    overflow:hidden;
+    font-size: 18px;
+}
+
+
+#download-page .download-mobile p{
+   padding-bottom: 30px;
+}
+
+#download-page .download-pc p{
+    padding-bottom: 30px;
+ }
+
+#download-page .btn:hover{
+background-color: aliceblue;
+color: #47C5B0;
+}
+
+/*contactus*/
+#contact-form .l-heading{
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: #ddd solid;
+}
+#contact-form textarea{
+    height: 200px;
+}
+
+@media only screen and (max-width: 414px) {
+    #navbar ul{
+        width: 100%;
+    }
+
+    #navbar ul li{
+        width: 170px;
+    }
+
+    #home-info .info-content h2{
+        font-size: 13px;
+    }
+
+    #home-info .info-content p{
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    #feature-one .one-content{
+        padding:130px 20px;
+        font-size: 13px;
+    }
+    
+    
+    #feature-one .one-content p{
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    #feature-two .two-content{
+        padding:130px 20px;
+        font-size: 13px;
+    }
+    
+    
+    #feature-two .two-content p{
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    #download-page .download-pc{
+        margin: auto;
+        float: none;
+        height: 50%;
+        padding: 0;
+        padding-top:50px;
+    }
+    
+    #download-page .download-mobile{
+        margin: auto;     
+        float: none;  
+        height: 50%;
+        padding:0;
+    }
+
+    #download-page img{
+        height: 100px;
+    }
+
+}
